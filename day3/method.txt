@@ -1,0 +1,6 @@
+Get method-It is used to send data to client/user side 
+Post method-it is used to create new resources to recieve data from client side ,
+      {
+        data will be come in req.body which is not readable by express server so we use middleware 
+        express.json()
+      }
